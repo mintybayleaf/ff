@@ -1,0 +1,34 @@
+{
+  "name": "ff",
+  "version": "1.0.0",
+  "description": "Final Fantasy XIV Discord Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mintybayleaf/ff.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "final",
+    "fantasy",
+    "XIV"
+  ],
+  "author": "Bailey Kocin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mintybayleaf/ff/issues"
+  },
+  "homepage": "https://github.com/mintybayleaf/ff#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0"
+  }
+}
