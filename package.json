@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Final Fantasy XIV Discord Bot",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,10 +24,12 @@
   },
   "homepage": "https://github.com/mintybayleaf/ff#readme",
   "dependencies": {
-    "discord.js": "^14.13.0",
-    "dotenv": "^16.3.1"
+    "axios": "^1.5.1",
+    "axios-cache-interceptor": "^1.3.1",
+    "discord.js": "^14.13.0"
   },
   "devDependencies": {
+    "dotenv": "^16.3.1",
     "eslint": "^8.51.0"
   }
 }
