@@ -1,5 +1,7 @@
 const { Events } = require('discord.js');
 
+let running = false;
+
 module.exports = {
     name: Events.InteractionCreate,
     async execute(interaction) {
